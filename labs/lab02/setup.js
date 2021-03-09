@@ -16,7 +16,11 @@ function setScene() {
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
+<<<<<<< Updated upstream:labs/lab02/setup.js
     //controls = new THREE.OrbitControls(camera,renderer.domElement);
+=======
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+>>>>>>> Stashed changes:labs/lab01/setup.js
 }
 
 //Resize the scene and update the camera aspect to the screen ration
